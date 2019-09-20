@@ -9,6 +9,14 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+<header>
+<div class="row">
+    <%= link_to 'Home', root_path %>
+
+  <div>
+    <%= link_to 'Add to Quiz', new_trivium_path %>
+  </div>
+</div>
   <body>
     <%= yield %>
   </body>

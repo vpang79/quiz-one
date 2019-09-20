@@ -1,0 +1,7 @@
+<h1>Add a Trivia Question!</h1>
+<%= simple_form_for @quizzes do |f| %>
+  <%= f.input :question %>
+  <%= f.input :answer %>
+  <br />
+  <%= f.submit 'Add' %>
+<% end %>
